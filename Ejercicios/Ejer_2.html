@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JS</title>
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+    <!-- BOOTSTRAP 4 SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAVEGATION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand">Ejercicios Javascript</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Index.html">Ejer #1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ejer_2.html">Ejer #2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ejer_3.html">Ejer #3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ejer_4.html">Ejer #4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center my-4">
+                <h2>Página Principal Ejercicios JS</h2>
+                <pre>Ejercicio 2:</pre>
+                <strong>
+                    Realiza un script que pida una cadena de texto y la muestre poniendo el signo – entre cada carácter.
+                    Si la cadena
+                    contiene un espacio, éste debe ser reemplazado con el siguiente símbolo - - ejemplo: hola mundo rta:
+                    h-o-l-a-
+
+                    -m-u-n-d-o-
+                </strong>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Solución</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="input_Form_dos">
+                            <div class="form-group">
+                                <label>Ingrese cualquier cadena de texto:</label>
+                                <input id="texto_dos" type="text" placeholder="Ejemplo: Hola mundo"
+                                    class="form-control">
+
+                                <button class="btn btn-success mt-2 float-right" type="submit"
+                                    id="botonId">Enviar</button>
+                                <button class="btn btn-secondary mt-2 float-left" type="reset">Vaciar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h4>Texto en formato solicitado: </h4>
+                </div>
+
+                <div class="card-body" style="width: 750px;">
+
+                    <div id="resultado_dos" class="col-md-8"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="../assets/js/codificacion2.js"></script>
+</body>
+
+</html>
